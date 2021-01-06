@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Hero from '../components/Hero';
 import Content from '../components/Content';
 
@@ -16,8 +17,15 @@ function AboutPage(props) {
                 <p>My dream is to start my own business and become a successful entrepreneur, under software programming industry (currently working on some ideas).</p>
 
                 <p>I am constantly learning new things. Currently those things include gaining more experience with MongoDB, React, PHP, and Node JS.</p>
-            </Content>
 
+                <hr/>
+
+                <p>Feel free to reach out to me using this <a href="mailto:veerdhaliwal22@gmail.com">link</a>.</p>
+
+                <p>The enclosed document below gives an insight on my experience, education, and skills acquired for technical career.</p>
+
+                <a href="Param_Resume.pdf" className="button" download><i className="fas fa-download"></i>Download</a>
+            </Content>
         </div>
     );
 }

@@ -24,7 +24,7 @@ class App extends React.Component {
       home: {
         title: 'Be Inquisitive.',
         subTitle: 'Projects that make a difference.',
-        text: 'Check out my projects and my profile below'
+        text: 'Check out my projects and profile below.'
       },
       about: {
         title: 'About Me'
@@ -54,9 +54,12 @@ class App extends React.Component {
         <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} /> } />
         <Route path="/about" exact render={() => <AboutPage title={this.state.about.title} /> } />
         <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} /> } />
-        <Footer />
-
+        <p></p>
+        <br/>
+        <br/>
+        <br/>
       </Container>
+      <Footer/>
     </Router>
     );
   }

@@ -3,7 +3,7 @@ import React from 'react';
 import Card from '../components/Card';
 
 import sheph from '../assets/images/sheph.png';
-import instagram from '../assets/images/profile.jpg';
+import profile from '../assets/images/download.png';
 import weperform from '../assets/images/dancer.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -26,7 +26,7 @@ class Carousel extends React.Component {
                     id: 1,
                     title: 'Param Dhaliwal',
                     subTitle: 'LinkedIn Profile',
-                    imgSrc: instagram,
+                    imgSrc: profile,
                     link: 'https://www.linkedin.com/in/parm-s-dhaliwal/',
                     selected: false
                 },

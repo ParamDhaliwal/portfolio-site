@@ -53,3 +53,10 @@ code {
   color: #EE6352;
   padding: 10px 15px;
 }
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+}
