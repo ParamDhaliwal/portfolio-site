@@ -12,9 +12,13 @@ function Footer() {
                     <Col className="p-0" md={3} sm={12}>
                         Param Dhaliwal
                     </Col>
-                    
+                    <Col className="d-flex justify-content-center">
+                        <a href="https://github.com/ParamDhaliwal"><i class="fa fa-github fa-lg"/></a>
+                        <a href="mailto:veerdhaliwal22@gmail.com"><i class="fa fa-envelope fa-lg"/></a>
+                        <a href="https://www.linkedin.com/in/parm-s-dhaliwal/"><i class="fa fa-linkedin fa-lg"/></a>
+                    </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        Site developed by Param Dhaliwal
+                        &copy; 2021 Param Dhaliwal
                     </Col>
                 </Row>
             </Container>

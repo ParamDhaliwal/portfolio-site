@@ -3,7 +3,7 @@ import React from 'react';
 import Card from '../components/Card';
 
 import sheph from '../assets/images/sheph.png';
-import profile from '../assets/images/download.png';
+import profile from '../assets/images/p1.jpg';
 import weperform from '../assets/images/dancer.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
