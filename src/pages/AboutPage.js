@@ -20,11 +20,11 @@ function AboutPage(props) {
 
                 <hr/>
 
-                <p>Feel free to reach out to me using this <a href="mailto:veerdhaliwal22@gmail.com">link</a>.</p>
+                <p>Please feel free to contact me via email or through LinkedIn, both of which are available at the very bottom.</p>
 
                 <p>The enclosed document below gives an insight on my experience, education, and skills acquired for technical career.</p>
 
-                <a href="Param_Resume.pdf" className="button" download><i className="fas fa-download"></i>Download</a>
+                <a href="Param_Resume.pdf" className="button" download><i className="fa fa-download fa-lg"></i>Download</a>
             </Content>
         </div>
     );
