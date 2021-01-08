@@ -54,6 +54,20 @@ code {
   padding: 10px 15px;
 }
 
+.fa {
+  font-size: 25px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  color: black;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
 footer {
   position: fixed;
   width: 100%;
